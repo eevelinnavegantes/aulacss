@@ -1,0 +1,53 @@
+.principal
+        {
+            width: 500px;
+            height: 250px;
+            background-color: silver;
+            border-style: solid;
+            border-width: 5px; /*espessura*/
+            border-color: red;
+            border-radius: 20px;
+            /*padding: 50px; direciona o texto left e top*/
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            position: relative;
+            
+        }
+        .interna
+        {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50px;
+           
+        }
+
+        .menu:hover
+        {
+            background-color: aquamarine;
+        }
+
+        .menu
+        {
+            width: 150px;
+            height: 60px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            left: 175px;
+            top: 0px;
+            
+        }
+        .centralizado
+        {
+            display: flex;
+            flex: row; /*row é linha column é coluna*/
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+        }
